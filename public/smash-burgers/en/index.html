@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="es" data-base="../">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, follow">
+<title>SMASH · Hamburguesas smash en Trujillo</title>
+<meta name="description" content="SMASH, concepto de hamburguesería smash en Trujillo, Perú. Carne fresca, plancha caliente y salsa de la casa. Adaptación de portafolio basada en el proyecto original de Aleryc Digital Studio.">
+<meta name="theme-color" content="#151210">
+<link rel="icon" href="../assets/logo/smash-marchio.svg" type="image/svg+xml">
+<link rel="icon" href="../assets/logo/favicon-48.png" sizes="48x48" type="image/png">
+<link rel="apple-touch-icon" href="../assets/logo/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="SMASH · Hamburguesas smash en Trujillo">
+<meta property="og:description" content="Concepto de hamburguesería smash en Trujillo: salsa de la casa, hamburguesa que se abre capa por capa y pedido de recojo. Adaptación de portafolio basada en el proyecto original de Aleryc Digital Studio.">
+<meta property="og:image" content="../cover.jpg">
+<link rel="preload" as="image" href="../assets/img/hero-primo-tel.webp" media="(max-width: 760px)" fetchpriority="high">
+<link rel="preload" as="image" href="../assets/img/hero-primo.webp" media="(min-width: 761px)" fetchpriority="high">
+<link rel="stylesheet" href="../css/style.css">
+<script>
+  document.documentElement.classList.add('js');
+  {
+    document.documentElement.classList.add('in-carica');
+    setTimeout(function () {
+      var d = document.documentElement;
+      if (!d.classList.contains('in-carica')) return;
+      window.smashAlzato = 1;
+      d.classList.add('alza'); d.classList.remove('in-carica');
+      if (window.smashLenis) window.smashLenis.start();
+      setTimeout(function () { d.classList.remove('alza'); }, 900);
+      dispatchEvent(new Event('smash:caricato'));
+    }, Math.max(0, 1800 - performance.now()));
+  }
+</script>
+</head>
+<body>
+<a class="salta" href="#anatomia">Skip to content</a>
+
+<div class="caricamento" aria-hidden="true"><span class="caricamento-parola">SMASH</span><span class="caricamento-perc">0%</span></div>
+
+<header class="testata" aria-label="Navegación">
+  <a class="testata-marchio" href="#hero">SMASH</a>
+  <nav class="testata-menu" id="testata-menu" aria-label="Secciones">
+    <a href="#anatomia">Anatomía</a>
+    <a href="#smash">La smash</a>
+    <a href="#menu">Carta</a>
+    <a href="#salsa">La salsa</a>
+    <a href="#locale">Visítanos</a>
+  </nav>
+  <a class="testata-ordina" href="#ordina">Pedir</a>
+  <button class="testata-apri" type="button" aria-expanded="false" aria-controls="testata-menu" aria-label="Abrir navegación"><i></i><i></i></button>
+</header>
+
+<main>
+  <section class="hero" id="hero" aria-label="SMASH, hamburguesas smash en Trujillo">
+    <div class="palco">
+      <div class="scena">
+        <picture><source media="(max-width: 760px)" srcset="../assets/img/hero-primo-tel.webp"><img class="foto" fetchpriority="high" src="../assets/img/hero-primo.webp" alt="La salsa de la casa cae sobre una doble smash con cheddar derretido"></picture>
+        <video muted playsinline preload="none" aria-hidden="true"></video>
+        <img class="goccia" src="../assets/img/goccia-85.webp" alt="" aria-hidden="true">
+        <img class="goccia-hd" data-src="../assets/img/goccia-hd.webp" crossorigin="anonymous" alt="" aria-hidden="true">
+        <div class="goccia-tinta" aria-hidden="true"></div>
+      </div>
+      <div class="velo" aria-hidden="true"></div>
+      <div class="velatura" aria-hidden="true"></div>
+      <div class="titolo">
+        <span class="marchio">Hamburguesas smash · Trujillo, Perú</span>
+        <h1><span class="schiaccia">SMASH</span></h1>
+        <p>Smash al momento, sin apuro.</p>
+        <div class="titolo-azioni"><a class="azione-ordina" href="#ordina">Pedir</a><a class="azione-menu" href="#menu">Carta</a></div>
+      </div>
+      <div class="scorri" aria-hidden="true">Scroll</div>
+      <div class="carica" aria-hidden="true"></div>
+    </div>
+  </section>
+
+  <section class="manifesto-sezione" aria-label="Nuestra regla">
+    <span class="marchio">La regla de la casa</span>
+    <h2 class="manifesto"><span>Noventa segundos.</span><span>Una sola presión.</span><span>Sin atajos.</span></h2>
+    <p class="nota">¿Viste esa salsa caer? La preparamos cada mañana con páprika ahumada, tomate asado y un toque de miel. Ahora abramos la hamburguesa.</p>
+  </section>
+
+  <section class="anatomia" id="anatomia" aria-label="Anatomía de una hamburguesa SMASH">
+    <div class="palco">
+      <div class="panino">
+        <img class="foto" src="../assets/img/anatomia-primo.jpg" alt="La hamburguesa doble SMASH, antes de separarse en capas">
+        <canvas class="tela" aria-hidden="true"></canvas>
+        <div class="velo" aria-hidden="true"></div>
+      </div>
+      <div class="intro">
+        <span class="marchio">La anatomía</span>
+        <h2>Siete capas, ninguna al azar.</h2>
+        <p>Desliza: la hamburguesa se abre capa por capa y te muestra por qué está hecha así.</p>
+      </div>
+      <div class="filo" aria-hidden="true"></div>
+      <div class="schede"></div>
+      <div class="passi" aria-hidden="true"></div>
+      <p class="fine">Siete capas. <em>Una mordida.</em></p>
+      <div class="carica" aria-hidden="true"></div>
+    </div>
+  </section>
+
+  <section class="smash sezione" id="smash" aria-label="La smash">
+    <div class="smash-testo rivela">
+      <span class="marchio">La smash</span>
+      <h2La aplastamos<br>una sola vez.</h2>
+      <p>La bola de carne llega a la plancha de hierro bien caliente y la presionamos una sola vez. Luego no la movemos: así se forma la costra y los bordes quedan crocantes. Una vuelta, cheddar derretido y listo.</p>
+    </div>
+    <figure class="smash-foto rivela">
+      <img src="../assets/img/smash-piastra.webp" srcset="../assets/img/smash-piastra-1000.webp 1000w, ../assets/img/smash-piastra-1200.webp 1200w, ../assets/img/smash-piastra.webp 2000w" sizes="(max-width: 760px) 100vw, 62vw" loading="lazy" decoding="async" alt="Una mano prensa carne en la plancha caliente; al lado, una smash con bordes crocantes">
+    </figure>
+    <ul class="numeri">
+      <li class="rivela"><b data-conta="90">90</b><span>gramos de carne fresca en cada smash</span></li>
+      <li class="rivela"><b data-conta="230" data-dopo="°">230°</b><span>grados en la plancha de hierro</span></li>
+      <li class="rivela"><b data-conta="10">10</b><span>segundos de presión y luego no se toca</span></li>
+      <li class="rivela"><b data-conta="0">0</b><span>congeladoras: trabajamos con carne fresca</span></li>
+    </ul>
+  </section>
+
+  <section class="menu sezione" id="menu" aria-label="La carta">
+    <div class="menu-corsa"><div class="menu-palco">
+    <div class="sezione-testa rivela">
+      <span class="marchio">La carta</span>
+      <h2>Tres hamburguesas. <em>Y nada más.</em></h2>
+    </div>
+    <div class="panini">
+      <article class="voce-panino rivela">
+        <img src="../assets/img/menu-classico.webp" srcset="../assets/img/menu-classico.webp 800w, ../assets/img/menu-classico-1200.webp 1015w" sizes="(max-width: 760px) 80vw, 30vw" loading="lazy" decoding="async" alt="La Clásica: doble smash con cheddar derretido y pepinillos en pan brioche">
+        <div class="riga"><h3>La Clásica</h3><span class="prezzo">S/ 19</span></div>
+        <p>Doble smash, doble cheddar, cebolla caramelizada, pepinillos y salsa de páprika de la casa.</p>
+      </article>
+      <article class="voce-panino rivela">
+        <img src="../assets/img/menu-piccante.webp" srcset="../assets/img/menu-piccante.webp 800w, ../assets/img/menu-piccante-1200.webp 1200w" sizes="(max-width: 760px) 80vw, 30vw" loading="lazy" decoding="async" alt="La Picantita: doble smash con queso, ají limo y cebolla crocante">
+        <div class="riga"><h3>La Picantita</h3><span class="prezzo">S/ 23</span></div>
+        <p>Doble smash, queso, ají limo, mayo picantita y cebolla crocante.</p>
+        <span class="etichetta">Picantita</span>
+      </article>
+      <article class="voce-panino rivela">
+        <img src="../assets/img/menu-bosco.webp" srcset="../assets/img/menu-bosco.webp 800w, ../assets/img/menu-bosco-1200.webp 1200w" sizes="(max-width: 760px) 80vw, 30vw" loading="lazy" decoding="async" alt="La Veggie: portobello, provolone, rúcula y salsa de páprika">
+        <div class="riga"><h3>La Veggie</h3><span class="prezzo">S/ 19</span></div>
+        <p>Portobello a la plancha, queso provolone, rúcula, cebolla caramelizada y salsa de páprika.</p>
+        <span class="etichetta">Vegetariana</span>
+      </article>
+    </div>
+    </div></div>
+    <div class="carta rivela">
+      <div>
+        <h3>Acompañamientos</h3>
+        <ul>
+          <li><span>Papas fritas crocantes</span><b>8</b></li>
+          <li><span>Aros de cebolla crocantes</span><b>9</b></li>
+          <li><span>Pepinillos fritos con dip</span><b>8</b></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Bebidas</h3>
+        <ul>
+          <li><span>Gaseosa personal</span><b>7</b></li>
+          <li><span>Limonada de la casa</span><b>7</b></li>
+          <li><span>Chicha morada</span><b>6</b></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Para cerrar</h3>
+        <ul>
+          <li><span>Helado con caramelo</span><b>7</b></li>
+          <li><span>Salsa de la casa, frasco de 200 g</span><b>8</b></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="salsa sezione" id="salsa" aria-label="Nuestra salsa de la casa">
+    <figure class="salsa-foto rivela">
+      <img src="../assets/img/salsa.webp" srcset="../assets/img/salsa.webp 800w, ../assets/img/salsa-1200.webp 1200w" sizes="(max-width: 760px) 90vw, 40vw" loading="lazy" decoding="async" alt="A jar of paprika sauce with a black SMASH label and its lid resting crooked on top">
+    </figure>
+    <div class="salsa-testo rivela">
+      <span class="marchio">Salsa de la casa</span>
+      <h2>La salsa que viste caer. <em>Ahora en frasco.</em></h2>
+      <p>Páprika ahumada, tomate asado a la plancha, vinagre y un toque de miel. La cocinamos cada mañana y la envasamos para que también la lleves a casa.</p>
+      <ul class="dati">
+        <li><b>200 g</b><span>por frasco</span></li>
+        <li><b>3 horas</b><span>a fuego lento</span></li>
+        <li><b>S/ 10</b><span>en el mostrador</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="ordina sezione" id="ordina" aria-label="Pide y recoge">
+    <div class="ordina-palco">
+    <div class="ordina-testo rivela">
+      <span class="marchio">Pide con anticipación</span>
+      <h2>Haz tu pedido.<br><em>Lo preparamos al momento.</em></h2>
+      <p>Elige tus hamburguesas y una hora de recojo. La carne va a la plancha minutos antes para que llegue recién hecha. Pagas al recoger.</p>
+      <ol class="tappe">
+        <li><b>01</b>Elige</li>
+        <li><b>02</b>Hora</li>
+        <li><b>03</b>Recoge</li>
+      </ol>
+    </div>
+    <form class="ordine rivela" novalidate data-pannello="0">
+      <div class="ordine-pannello">
+        <div class="ordine-passo">
+          <span class="ordine-titolo">Elige tus hamburguesas</span>
+          <div class="ordine-voci"></div>
+        </div>
+        <button type="button" class="ordine-avanti">Hora de recojo <i aria-hidden="true">→</i></button>
+      </div>
+      <div class="ordine-pannello">
+        <button type="button" class="ordine-indietro"><i aria-hidden="true">←</i> Burgers</button>
+        <fieldset class="ordine-orari ordine-passo">
+          <legend>Hora de recojo</legend>
+          <div class="orari-scelta"></div>
+        </fieldset>
+        <button type="button" class="ordine-avanti">Revisar pedido <i aria-hidden="true">→</i></button>
+      </div>
+      <div class="ordine-pannello">
+        <button type="button" class="ordine-indietro"><i aria-hidden="true">←</i> Hora de recojo</button>
+        <div class="ordine-passo">
+          <span class="ordine-titolo">Tu pedido</span>
+          <ul class="ordine-riepilogo"></ul>
+          <div class="ordine-totale"><span>Total</span><b>S/ 0</b></div>
+          <button type="submit" disabled>Confirmar recojo</button>
+          <p class="ordine-esito" role="status" aria-live="polite"></p>
+        </div>
+      </div>
+    </form>
+    </div>
+  </section>
+
+  <section class="locale" id="locale" aria-label="Visítanos">
+    <div class="palco">
+      <div class="locale-foto"><img src="../assets/img/locale.webp" srcset="../assets/img/locale-1000.webp 1000w, ../assets/img/locale-1200.webp 1200w, ../assets/img/locale.webp 2000w" sizes="100vw" loading="lazy" decoding="async" alt="El comedor con barra de madera, cocina abierta y mesas para compartir"></div>
+      <div class="locale-velo" aria-hidden="true"></div>
+      <div class="locale-testo">
+        <span class="marchio">Visítanos</span>
+        <h2><span class="riga"><span>Un mostrador y una plancha,</span></span><span class="riga"><em>en el norte peruano</em></span><span class="riga"><em>con sabor de casa.</em></span></h2>
+        <p>Un espacio de barrio, cocina abierta y atención sin apuro: pasa, pide en el mostrador y disfruta todo recién hecho.</p>
+      </div>
+      <dl class="locale-dati">
+        <div><dt>Ubicación</dt><dd>Trujillo, La Libertad<br>Perú · dirección de muestra</dd></div>
+        <div><dt>Horario</dt><dd>Martes–domingo<br>12:30–15:30 · 19–23</dd></div>
+        <div><dt>Cerrado</dt><dd>Lunes</dd></div>
+        <div><dt>Contacto</dt><dd>Datos de muestra</dd></div>
+      </dl>
+      <p class="adesso"><i aria-hidden="true"></i><span></span></p>
+    </div>
+  </section>
+
+  <section class="recensioni" id="recensioni" aria-label="Opiniones de muestra">
+    <div class="palco">
+      <div class="voto">
+        <span class="marchio">Lo que se comenta</span>
+        <b><span class="voto-num">4.9</span><small>/5</small></b>
+        <span class="stelle-voto" aria-label="Rated 4.9 out of 5 stars"><span class="piene">★★★★★</span>★★★★★</span>
+        <span class="voto-quante">Opiniones de muestra</span>
+      </div>
+      <div class="binario">
+        <blockquote><span class="stelle" aria-label="5 out of 5 stars">★★★★★</span><p>“Esa costrita en los bordes queda buenaza. La smash perfecta para darte un gusto.”</p><footer>Cliente · Trujillo</footer></blockquote>
+        <blockquote><span class="stelle" aria-label="5 out of 5 stars">★★★★★</span><p>“La salsa de la casa está buenísima; ya se me acabó un frasco.”</p><footer>Cliente · Trujillo</footer></blockquote>
+        <blockquote><span class="stelle" aria-label="5 out of 5 stars">★★★★★</span><p>“Carta corta y todo sale recién hecho, sin apuro.”</p><footer>Cliente · Trujillo</footer></blockquote>
+        <blockquote><span class="stelle" aria-label="5 out of 5 stars">★★★★★</span><p>“La Veggie wins over even the meat eaters. My husband stole mine.”</p><footer>Cliente · Trujillo</footer></blockquote>
+        <blockquote><span class="stelle" aria-label="4 out of 5 stars">★★★★<span class="vuota">★</span></span><p>“Pedí para las ocho y media y estuvo listo justo a esa hora, calientito.”</p><footer>Cliente · Trujillo</footer></blockquote>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="piede">
+  <div class="piede-marchio">SMASH</div>
+  <p>Smash al momento, sin apuro.</p>
+  <p class="piede-dove">Trujillo, Perú · Martes–domingo, 12:30–15:30 y 19:00–23:00</p>
+  <p class="dimostrativo">SMASH es un concepto ficticio de portafolio, adaptación de la web original creada por <a id="studio-link" href="https://aleryc.com/" target="_blank" rel="noopener">Aleryc Digital Studio</a>. La marca, los datos y la dirección de este concepto son ficticios.<br>Las fotografías y videos del proyecto original se conservan en esta adaptación de portafolio.</p>
+</footer>
+
+<script src="../js/vendor/lenis.min.js"></script>
+<script src="../js/main.js?v=0911a"></script>
+<script src="../js/sezioni.js"></script>
+<script src="../js/ancora.js" defer></script>
+</body>
+</html>
