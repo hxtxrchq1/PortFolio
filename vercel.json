@@ -1,0 +1,14 @@
+{
+  "rewrites": [
+    {
+      "source": "/",
+      "has": [{ "type": "host", "value": "smashburgers.chiqo.cc.cd" }],
+      "destination": "/smash-burgers/"
+    },
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "smashburgers.chiqo.cc.cd" }],
+      "destination": "/smash-burgers/:path*"
+    }
+  ]
+}

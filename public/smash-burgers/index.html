@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#171a17" />
+    <meta name="description" content="Brasa Norte: hamburguesas smash, papas crocantes y salsas de la casa. Un concepto de portafolio inspirado en Trujillo, Perú." />
+    <title>Brasa Norte — Smash burgers en Trujillo</title>
+    <link rel="icon" href="assets/mark.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script>document.documentElement.classList.add('js');</script>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#contenido">Ir al contenido</a>
+    <header class="site-header">
+      <a class="wordmark" href="#inicio" aria-label="Brasa Norte, inicio"><span class="brand-mark">B</span><span>BRASA <i>NORTE</i></span></a>
+      <button class="menu-toggle" aria-label="Abrir navegación" aria-expanded="false" aria-controls="site-nav"><span></span><span></span></button>
+      <nav id="site-nav" class="site-nav" aria-label="Navegación principal">
+        <a href="#anatomia">La smash</a><a href="#carta">La carta</a><a href="#salsa">La salsa</a><a href="#visitanos">Visítanos</a>
+      </nav>
+      <a class="nav-order" href="#pedido">Pedir <span>↗</span></a>
+    </header>
+
+    <main id="contenido">
+      <section class="hero" id="inicio">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> Smash burgers · Trujillo, Perú</p>
+          <h1>Fuego alto.<br /><em>Buen diente.</em></h1>
+          <p class="hero-intro">Carne aplastada al momento, bordes bien crocantes y sabor norteño en cada mordida.</p>
+          <div class="hero-actions"><a class="button button-primary" href="#carta">Ver la carta <span>↓</span></a><a class="text-link" href="#anatomia">Conoce la smash <span>↘</span></a></div>
+          <div class="hero-footnote"><span>100% al momento</span><span>Hecho en Trujillo</span></div>
+        </div>
+        <div class="hero-art" aria-label="Ilustración original de una hamburguesa Brasa Norte">
+          <div class="hero-orbit orbit-one"></div><div class="hero-orbit orbit-two"></div>
+          <span class="art-stamp">PURA<br />PLANCHA</span>
+          <div class="burger burger-hero" aria-hidden="true">
+            <div class="burger-layer bun-top"><i></i><i></i><i></i><i></i><i></i></div>
+            <div class="burger-layer sauce-layer"></div><div class="burger-layer onion-layer"></div><div class="burger-layer cheese-layer"></div><div class="burger-layer patty-layer"></div><div class="burger-layer cheese-layer cheese-second"></div><div class="burger-layer patty-layer patty-second"></div><div class="burger-layer pickle-layer"></div><div class="burger-layer bun-bottom"></div>
+          </div>
+          <div class="art-caption"><span>01 / 04</span><span>Doble smash de la casa</span></div>
+        </div>
+        <a class="scroll-cue" href="#manifiesto"><span></span> Sigue bajando</a>
+      </section>
+
+      <section class="manifesto" id="manifiesto">
+        <div class="manifesto-number">BN / 01</div><p class="eyebrow">Nuestra regla</p>
+        <h2>La plancha bien caliente.<br /><em>La espera, cortita.</em></h2>
+        <p class="manifesto-note">Sellamos la carne cuando haces tu pedido. Sin vueltas, sin congelador: solo pan suave, queso derritiéndose y esa costrita que suena al morder.</p>
+      </section>
+
+      <section class="anatomy section-pad" id="anatomia">
+        <div class="section-intro"><p class="eyebrow">02 / La smash</p><h2>Capas con<br /><em>su propósito.</em></h2><p>Desliza y mira cómo se arma una doble norteña. El secreto está en cada capa, y en no apurarse con la plancha.</p><span class="scroll-note">SCROLL PARA DESARMAR <b>↓</b></span></div>
+        <div class="anatomy-stage" data-explode>
+          <div class="anatomy-glow"></div>
+          <div class="burger burger-anatomy" aria-hidden="true">
+            <div class="burger-layer bun-top"><i></i><i></i><i></i><i></i><i></i></div>
+            <div class="burger-layer sauce-layer"></div><div class="burger-layer onion-layer"></div><div class="burger-layer cheese-layer"></div><div class="burger-layer patty-layer"></div><div class="burger-layer cheese-layer cheese-second"></div><div class="burger-layer patty-layer patty-second"></div><div class="burger-layer pickle-layer"></div><div class="burger-layer bun-bottom"></div>
+          </div>
+          <div class="layer-label label-top"><b>01</b> Pan brioche <span>Suave y doradito</span></div>
+          <div class="layer-label label-sauce"><b>02</b> Mayo de ají amarillo <span>Un toque norteño</span></div>
+          <div class="layer-label label-onion"><b>03</b> Cebolla a la plancha <span>Dulce y ahumada</span></div>
+          <div class="layer-label label-cheese"><b>04</b> Cheddar <span>Bien derretido</span></div>
+          <div class="layer-label label-patty"><b>05</b> Doble smash <span>Borde crocante</span></div>
+          <div class="layer-label label-pickle"><b>06</b> Pepinillo y salsa <span>El balance perfecto</span></div>
+          <div class="layer-label label-bottom"><b>07</b> Pan tostado <span>El último soporte</span></div>
+          <p class="stage-note">UNA BUENA MORDIDA<br /><strong>EMPIEZA AQUÍ</strong></p>
+        </div>
+      </section>
+
+      <section class="craft section-pad">
+        <div class="craft-image"><div class="griddle"><span></span><span></span><span></span><div class="griddle-patty"></div><div class="griddle-press">BN</div></div><span class="image-index">EN LA PLANCHA / 230°</span></div>
+        <div class="craft-copy"><p class="eyebrow">03 / El sellado</p><h2>Un smash.<br /><em>Sin apachurrar de más.</em></h2><p>La carne llega a la plancha caliente y se presiona una sola vez. Así aparece el borde doradito por fuera y queda jugosa por dentro.</p><div class="stats"><div><strong>90<span>g</span></strong><small>por carne</small></div><div><strong>230<span>°</span></strong><small>plancha caliente</small></div><div><strong>1<span>×</span></strong><small>presión al inicio</small></div></div></div>
+      </section>
+
+      <section class="menu-section section-pad" id="carta">
+        <div class="menu-heading"><div><p class="eyebrow">04 / La carta</p><h2>Al grano.<br /><em>Como debe ser.</em></h2></div><p>Elige tu favorita y acompáñala con papitas. Precios de muestra en soles para este concepto.</p></div>
+        <div class="menu-grid">
+          <article class="menu-card"><div class="dish-art dish-classic"><span class="dish-number">01</span><div class="mini-burger"><i></i><i></i><i></i><i></i><i></i></div></div><div class="dish-title"><h3>La Clásica</h3><strong>S/ 19</strong></div><p>Carne smash, cheddar, pepinillos y mayo de la casa en pan brioche.</p><span class="dish-tag">La de siempre</span></article>
+          <article class="menu-card featured"><div class="dish-art dish-criolla"><span class="dish-number">02</span><div class="mini-burger"><i></i><i></i><i></i><i></i><i></i><i></i></div></div><div class="dish-title"><h3>La Criolla</h3><strong>S/ 24</strong></div><p>Doble carne, queso, cebolla caramelizada y mayo de ají amarillo.</p><span class="dish-tag">Favorita de la casa</span></article>
+          <article class="menu-card"><div class="dish-art dish-nortena"><span class="dish-number">03</span><div class="mini-burger"><i></i><i></i><i></i><i></i><i></i></div></div><div class="dish-title"><h3>La Norteña</h3><strong>S/ 26</strong></div><p>Doble smash, cheddar, tocino crocante, salsa de rocoto y cebolla a la plancha.</p><span class="dish-tag">Con carácter</span></article>
+        </div>
+        <div class="menu-extras"><div><p class="eyebrow">Para completar</p><h3>Algo más<br /><em>para la mesa.</em></h3></div><ul><li><span>Papas fritas crocantes</span><b>S/ 8</b></li><li><span>Papas con cheddar y tocino</span><b>S/ 14</b></li><li><span>Chicha morada de la casa</span><b>S/ 7</b></li><li><span>Maracuyá helada</span><b>S/ 7</b></li></ul><p class="menu-disclaimer">Precios referenciales de una marca ficticia.</p></div>
+      </section>
+
+      <section class="sauce-section section-pad" id="salsa"><div class="sauce-art" aria-hidden="true"><div class="sauce-sun"></div><div class="sauce-jar"><span>AJÍ<br />NORTEÑO</span></div><i class="sauce-drop drop-one"></i><i class="sauce-drop drop-two"></i></div><div class="sauce-copy"><p class="eyebrow">05 / La salsa</p><h2>Ají amarillo.<br /><em>Con su punto.</em></h2><p>Una mayo cremosa con ají amarillo, limón y un poquito de ajo. La hacemos para que acompañe, no para tapar todo lo demás.</p><div class="sauce-facts"><span><b>De la casa</b>Hecha al momento</span><span><b>S/ 4</b>Porción adicional</span></div></div></section>
+
+      <section class="order-section section-pad" id="pedido"><div class="order-copy"><p class="eyebrow">06 / Pedido de muestra</p><h2>¿Se te antojó?<br /><em>Ármalo aquí.</em></h2><p>Selecciona tus burgers y mira el total. Este formulario es una demostración de portafolio: no envía pedidos ni guarda datos.</p><div class="order-steps"><span><b>01</b> Elige</span><span><b>02</b> Recoge</span><span><b>03</b> Disfruta</span></div></div><form class="order-card" id="order-form"><p class="order-card-title">Tu pedido <span>DEMO</span></p><div id="order-items"></div><label class="pickup-label" for="pickup-time">Hora referencial de recojo</label><select id="pickup-time"><option>12:30 p. m.</option><option>1:00 p. m.</option><option>1:30 p. m.</option><option>7:30 p. m.</option><option>8:00 p. m.</option><option>8:30 p. m.</option></select><div class="order-total"><span>Total</span><strong id="order-total">S/ 0</strong></div><button class="button button-primary order-submit" type="submit">Ver resumen <span>↗</span></button><p class="order-result" id="order-result" aria-live="polite"></p></form></section>
+
+      <section class="visit-section" id="visitanos"><div class="visit-backdrop"><div class="arch arch-one"></div><div class="arch arch-two"></div><div class="counter"><span>BRASA NORTE</span><i></i><i></i><i></i></div></div><div class="visit-copy"><p class="eyebrow">07 / Visítanos</p><h2>Una mesa,<br /><em>una buena burger.</em></h2><p>Un punto de encuentro imaginario para este concepto de hamburguesería en Trujillo.</p></div><dl class="visit-details"><div><dt>Ubicación</dt><dd>Trujillo, La Libertad<br />Perú · dirección demo</dd></div><div><dt>Horario de muestra</dt><dd>Mar–dom<br />12:30–15:30 · 19:00–23:00</dd></div><div><dt>Estado</dt><dd class="open-status"><i></i><span id="open-status">Revisando horario</span></dd></div></dl></section>
+
+      <section class="quotes-section section-pad"><div class="quotes-heading"><p class="eyebrow">08 / Una idea para compartir</p><h2>Un buen plan<br /><em>se pasa la voz.</em></h2><p>Comentarios de muestra para presentar el diseño; no son reseñas reales.</p></div><div class="quotes-grid"><blockquote><span>★★★★★</span><p>“Esa costrita de la carne y la mayo de ají… buena combinación.”</p><footer>— Texto de muestra · Trujillo</footer></blockquote><blockquote><span>★★★★★</span><p>“Carta corta, papitas crocantes y una burger que sí llena.”</p><footer>— Texto de muestra · Trujillo</footer></blockquote><blockquote><span>★★★★★</span><p>“La Criolla con chicha morada: plan resuelto.”</p><footer>— Texto de muestra · Trujillo</footer></blockquote></div></section>
+    </main>
+
+    <footer class="site-footer"><a class="wordmark" href="#inicio"><span class="brand-mark">B</span><span>BRASA <i>NORTE</i></span></a><p>Fuego alto. Buen diente.</p><div class="footer-meta"><span>Concepto ficticio · Portafolio de Alonso Paredes</span><span>Inspirado en el ritual de una buena smash burger. Diseño y recursos visuales originales.</span><a href="#inicio">Volver arriba ↑</a></div></footer>
+  </body>
+</html>
